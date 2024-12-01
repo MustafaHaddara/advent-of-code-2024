@@ -13,7 +13,9 @@ type Solver interface {
 	TestInput() string
 }
 
-var solvers = []Solver{}
+var solvers = []Solver{
+	Day01{},
+}
 
 func main() {
 	fmt.Println(os.Args)
