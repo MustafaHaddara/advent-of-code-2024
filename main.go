@@ -48,8 +48,8 @@ func main() {
 	a := strings.ToLower(os.Args[2]) == "a"
 
 	if a {
-		fmt.Println(solvers[0].SolveA(rows))
+		fmt.Println(solvers[day-1].SolveA(rows))
 	} else {
-		fmt.Println(solvers[0].SolveB(rows))
+		fmt.Println(solvers[day-1].SolveB(rows))
 	}
 }
