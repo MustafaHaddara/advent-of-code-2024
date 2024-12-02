@@ -15,6 +15,7 @@ type Solver interface {
 
 var solvers = []Solver{
 	Day01{},
+	Day02{},
 }
 
 func main() {
