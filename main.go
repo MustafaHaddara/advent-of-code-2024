@@ -19,6 +19,7 @@ var solvers = []Solver{
 	Day03{},
 	Day04{},
 	Day05{},
+	Day06{},
 }
 
 func main() {
